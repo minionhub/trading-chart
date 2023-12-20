@@ -1,16 +1,13 @@
 import React, {
   useEffect,
   useRef,
-  useState
 } from 'react';
 
 let tvScriptLoadingPromise;
 
 const TradingDashboard = (props) => {
   const {
-    list,
     value,
-    setter
   } = props;
 
   const onLoadScriptRef = useRef();
